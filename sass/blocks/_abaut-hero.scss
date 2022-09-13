@@ -1,0 +1,36 @@
+.abaut-us{
+    margin-bottom: 169px;
+}
+.abaut-us__wrapper{
+    width: 100%;
+    max-width: 1280px;
+    height: 450px;
+    background-image: url(../../images/abaut-hero-img.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.abaut-us__inner{
+    width: 100%;
+    padding: 137px 0 137px 85px;
+}
+.abaut-us__title{
+    font-family: 'Fraunces', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 120%;
+    color: #FEFCF7;
+    margin: 0;
+    padding: 0;
+}
+.abaut-us__text-wrapper{
+    width: 445px;
+}
+.abaut-us__text{
+    font-family: 'Barlow' ,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+}

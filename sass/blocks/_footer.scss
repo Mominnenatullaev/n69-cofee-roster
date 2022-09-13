@@ -1,0 +1,19 @@
+.site-footer{
+    padding: 47px 84px;
+    background-color: #2C343E;
+}
+.site-footer__inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav__list{
+    margin-left: auto;
+}
+
+.footer__icon{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 120px;
+}
