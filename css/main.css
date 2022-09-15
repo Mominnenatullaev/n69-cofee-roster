@@ -884,7 +884,7 @@ main {
   background-image: url(../../images/creat-a-plan.png);
   background-size: 100%;
   background-repeat: no-repeat;
-  margin-bottom: 476px;
+  margin-bottom: 180px;
 }
 
 .creat-plan__title {
@@ -910,4 +910,252 @@ main {
   color: #FEFCF7;
   mix-blend-mode: normal;
   opacity: 0.8;
+}
+
+.js {
+  margin-bottom: 168px;
+}
+
+.js__wrapper {
+  width: 100%;
+  max-width: 1110px;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+.js__inner-list {
+  list-style-type: none;
+}
+
+.js_inner-item {
+  display: flex;
+  width: 100%;
+  max-width: 255px;
+  color: #CACBCB;
+  padding: 24px 0;
+}
+
+.js_inner-item:hover {
+  color: #858A90;
+}
+
+.js_inner-item:active {
+  color: #333D4B;
+}
+
+.js__inner-strong {
+  font-family: "Fraunces", serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 133%;
+}
+
+.js__inner-title {
+  margin: 0 auto;
+  font-family: "Fraunces", serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 133%;
+}
+
+.js__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.js__list {
+  list-style-type: none;
+}
+
+.js__item {
+  position: relative;
+  margin: 0 auto;
+  max-width: 730px;
+  width: 100%;
+  height: 354px;
+  overflow: hidden;
+}
+
+.js__title {
+  font-family: "Fraunces ", serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 120%;
+  color: #83888F;
+  margin-bottom: 56px;
+  margin-right: 80px;
+}
+
+.js__img {
+  width: 18px;
+  height: 12px;
+}
+
+.sublist {
+  position: absolute;
+  top: -225px;
+  z-index: -1;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.subitem {
+  background-color: #F4F1EB;
+  border-radius: 8px;
+  padding: 32px 28px 84px 28px;
+  max-width: 238px;
+  width: 100%;
+  color: #333D4B;
+}
+
+.subitem:hover {
+  background-color: #FDD6BA;
+}
+
+.subitem:active {
+  background-color: #0E8784;
+  color: #fff;
+}
+
+.subitem__title {
+  font-family: "Fraunces", serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 133%;
+  margin-bottom: 24px;
+}
+
+.subitem__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 162%;
+  color: #333D4B;
+}
+
+.is-open {
+  bottom: 0;
+  top: auto;
+  width: 100%;
+}
+
+.rotate-please {
+  transform: rotate(180deg);
+}
+
+.order {
+  border-radius: 10px;
+  padding: 27px 64px 27px 64px;
+  width: 100%;
+  max-width: 730px;
+  background-color: #293039;
+}
+
+.order__title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 162%;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  margin-bottom: 8px;
+}
+
+.order__strong {
+  font-family: "Fraunces", serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 167%;
+  color: #FFFFFF;
+}
+
+.order__color {
+  color: #0E8784;
+}
+
+.chouse__wrapper {
+  margin-bottom: 168px;
+}
+
+.chouse__list {
+  z-index: -3;
+  padding: 189px 150px 109px 85px;
+  width: 1280px;
+  height: 653px;
+  background-color: #2C343E;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  border-radius: 10px;
+}
+
+.chouse__item {
+  position: relative;
+}
+
+.chouse__item::before {
+  position: absolute;
+  width: 27px;
+  height: 27px;
+  background: #FEFCF7;
+  border: 2px solid #0E8784;
+  border-radius: 50%;
+  top: -94px;
+  left: 0;
+  content: "";
+  z-index: 2;
+}
+
+.chouse__line {
+  position: absolute;
+  top: -83px;
+  z-index: 1;
+  left: 0;
+  width: 140%;
+  height: 2px;
+  background-color: #FDD6BA;
+}
+
+.chouse__item:last-child .chouse__line {
+  display: none;
+}
+
+.chouse__strong {
+  font-family: "Fraunces", serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 100%;
+  color: #FDD6BA;
+}
+
+.chouse__title {
+  width: 219px;
+  margin-bottom: 42px;
+  margin-top: 38px;
+  font-family: "Fraunces", serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 112%;
+  color: #FEFCF7;
+}
+
+.chouse__text-wrapper {
+  width: 100%;
+  max-width: 285px;
+}
+
+.chouse__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 162%;
+  color: #FEFCF7;
 }/*# sourceMappingURL=main.css.map */
