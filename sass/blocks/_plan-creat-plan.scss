@@ -1,7 +1,7 @@
 .creat-plan__wrapper{
     padding: 134px 0 132px 85px;
     background-image: url(../../images/creat-a-plan.png);
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     margin-bottom: 180px;
 }
@@ -26,4 +26,9 @@
     color: #FEFCF7;
     mix-blend-mode: normal;
     opacity: 0.8;
+}
+@media only screen and (max-widh:950px){
+    .creat-plan__title{
+        color: black;
+    }
 }
